@@ -1,0 +1,25 @@
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form__add{
+    margin:0 auto;
+            background-color: rgb(28, 133, 204);
+}
+
+.ggg{
+    background-color: rgb(13, 202, 202);
+    border-radius: 3px;
+    padding-bottom: 10px;
+}
+.form-control{
+    background-color: rgb(249, 248, 250);
+}
+label{
+    font-size: 18px;
+    color:#fff;
+}
+.form-control-file{
+    font-size: 18px;
+    color:#fff;
+}
