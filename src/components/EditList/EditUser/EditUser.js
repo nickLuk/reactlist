@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import {BrowserRouter as Router, Link} from "react-router-dom";
 import "./EditUser.css";
 
@@ -51,9 +51,9 @@ class EditUser extends React.Component{
         e.preventDefault();
         const { name, description, avatar, gender } = this.state;
         this.props.ContactSave(name, description, avatar, gender);
-      };
-    render() {
-      //console.log(this.props.gender);
+      };*/
+   /* render() {
+      
       const {
         avatar,
         description,
@@ -65,7 +65,7 @@ class EditUser extends React.Component{
         iconskype,
         iconemail,
         
-      } = this.state;
+      } = this.state;*/
       
 /*
       let url = `https://randomuser.me/api/portraits/${gender}/${avatar}.jpg`;
@@ -83,7 +83,7 @@ class EditUser extends React.Component{
       if (this.props.favorite) {
         starStyle = "starIns";
       }*/
-        return (
+     /*   return (*/
 
 /*
 
@@ -219,7 +219,7 @@ class EditUser extends React.Component{
           
         </div>*/
 
-
+/*
 <div>
 
 <div className="container-fluid center">
@@ -291,7 +291,7 @@ class EditUser extends React.Component{
 
         
     }
-};
+};*/
 
 
 
@@ -363,4 +363,4 @@ class EditUser extends React.Component{
 </div>
 </div>
 </div>*/
-export default EditUser;
+/*export default EditUser;*/

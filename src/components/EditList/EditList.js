@@ -1,5 +1,5 @@
 
-import React, { Fragment } from "react";
+/*import React, { Fragment } from "react";
 import "./EditList.css";
 import EditUser from "./EditUser/EditUser";
 import Search from "../SearchComponent/search";
@@ -37,4 +37,4 @@ const EditList = ({ EditList, onEdit }) => {
   );
 };
 
-export default EditList;
+export default EditList;*/

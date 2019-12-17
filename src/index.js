@@ -214,7 +214,7 @@ console.log(newListEdit);
     });
   };
 
-  EditContact = (name, description, avatar, gender, id) => {
+  EditUser = (name, description, avatar, gender, id) => {
    
     const Edited = {
       name: name,
@@ -277,7 +277,7 @@ console.log(newListEdit);
               component={() => (
                 <Edit
                 onEditor={this.state.Item}
-               EditContact={this.EditContact}
+               EditUser={this.EditUser}
                 //Editor={this.Editor}
                   
                  

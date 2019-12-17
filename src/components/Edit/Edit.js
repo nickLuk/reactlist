@@ -36,10 +36,10 @@ class Edit extends React.Component{
           avatar: e.target.value
         });
       };
-      onChanged = e => {
+      onSave = e => {
         const { name, description, avatar, gender, id } = this.state;
         this.GetId();
-        this.props.EditContact(name, description, avatar, gender, id);
+        this.props.EditUser(name, description, avatar, gender, id);
         e.preventDefault();
         console.log(this.gender, this.id);
       };
@@ -57,7 +57,7 @@ class Edit extends React.Component{
         if (this.state.avatar === undefined) {
           this.state.avatar = this.avatar;
         }
-        let url = `https://randomuser.me/api/portraits/${this.state.gender}/${this.state.avatar}.jpg`;
+        
 
         return (
             <div>
@@ -68,7 +68,7 @@ class Edit extends React.Component{
                     Edit
                   </h3>
                   <div className="line"></div>
-                  <form onSubmit={this.onChanged} action="" className="col">
+                  <form onSubmit={this.onSave} action="" className="col">
                     <div className="form-row justify-content-around">
                       <div className="ggg form-group col-8">
                         <label for="formGroupExampleInput2">Name</label>
